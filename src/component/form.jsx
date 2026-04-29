@@ -82,9 +82,6 @@ export const RegForm = () => {
           {formState === "sending" ? "Sending..." : "Send"}
         </button>
 
-        {/* remove this after resolve */}
-        <button>commit</button>
-        {/* remove after resolve */}
         {formState === "sent" && (
           <p className="text-green-600 font-medium text-center mt-2 animate-bounce">
             Message sent successfully! We will get back to you soon.
