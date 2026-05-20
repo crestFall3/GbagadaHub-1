@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 
+// fixed animation
 export const Section = ({ children }) => {
   return (
     <motion.div
@@ -23,4 +24,5 @@ export const SectionView = ({ children }) => {
       {children}
     </motion.div>
   );
+  // 
 };
