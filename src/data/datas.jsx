@@ -122,7 +122,7 @@ export const faq = [
   {
     title: "How fast is the Internet?",
     content:
-      "e provide high-speed, enterprise-grade fiber optic internet with speeds up to 50Mbps - 100Mbps",
+      "We provide high-speed, enterprise-grade fiber optic internet with speeds up to 50Mbps - 100Mbps",
   },
 
   {

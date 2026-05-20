@@ -14,13 +14,12 @@ export const Accordion = ({ item }) => {
         <div
           key={index}
           onClick={() => handleOpen(index)}
-          className="border flex flex-col gap-3 py-4 px-6 cursor-pointer border-black hover:border-[#FF6B00] hover:border-3 rounded"
+          className="border-3 border-transparent flex flex-col py-2 px-6 cursor-pointer hover:border-[#FF6B00] rounded transition-colors duration-200"
         >
           <div className="flex justify-between">
             <p className="font-bold text-lg">{item.title}</p>
             <button
-              className="transition-all duration-300 ease-in"
-              onClick={() => handleOpen(index)}
+              className="transition-all cursor-pointer duration-300 ease-in"
             >
               {open === index ? <Minus /> : <Plus />}
             </button>
