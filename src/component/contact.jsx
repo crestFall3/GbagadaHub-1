@@ -51,7 +51,7 @@ export const Contact = () => {
 
       {/* Contact form section */}
       <SectionView>
-        <div className="py-34 flex flex-col md:flex-row justify-between gap-4 md:gap-8">
+        <div className="py-28 flex flex-col md:flex-row justify-between gap-4 md:gap-8">
           <div className="flex-1">
             <RegForm />
           </div>
