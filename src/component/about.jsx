@@ -1,6 +1,9 @@
 import React from "react";
 import { Section, SectionView } from "./animation";
 import { TypeAnimation } from "react-type-animation";
+import Image1 from "/assets/Image1.jpg";
+import Image2 from "/assets/Image2.jpg";
+import Image3 from "/assets/image3.jpg";
 
 export const About = () => {
   return (
@@ -61,10 +64,28 @@ export const About = () => {
             </h2>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-16">
-            <div className="md:w-80 h-80 rounded bg-[#E2E7F0]"></div>
-            <div className="md:w-80 h-80 rounded bg-[#E2E7F0]"></div>
-            <div className="md:w-80 h-80 rounded bg-[#E2E7F0]"></div>
+          <div className="flex flex-col md:flex-row gap-10">
+            <div className="md:w-80 h-80 rounded bg-[#E2E7F0]">
+              <img
+                src={Image1}
+                alt="Image of an office setup"
+                className="w-full h-full object-cover rounded-lg"
+              />
+            </div>
+            <div className="md:w-80 h-80 rounded bg-[#E2E7F0]">
+              <img
+                src={Image3}
+                alt="Image of an office setup"
+                className="w-full h-full object-cover rounded-lg"
+              />
+            </div>
+            <div className="md:w-80 h-80 rounded bg-[#E2E7F0] ">
+              <img
+                src={Image2}
+                alt="Image of an office setup"
+                className="w-full h-full object-cover rounded-lg"
+              />
+            </div>
           </div>
         </div>
       </SectionView>
