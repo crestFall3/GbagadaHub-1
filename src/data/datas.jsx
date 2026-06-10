@@ -37,7 +37,7 @@ export const homeSvg = [
   },
 
   {
-    title: "Internet",
+    title: "High-Speed Internet",
     svg: "/svg/wifi.svg",
     description: "icon of a wifi",
   },

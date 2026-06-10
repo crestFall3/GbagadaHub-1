@@ -19,7 +19,7 @@ export const Nav = () => {
       {/* Logo */}
 
       <div className="flex gap-2 items-center">
-        <img className="w-12 h-12" src="/logo.svg" alt="Brand Logo" />
+        <img style={{ backgroundColor: "#FF6A00" }} className="w-12 h-12" src="/logo.svg" alt="Brand Logo" />
         <p className="flex flex-col font-body">
           GBAGADA <span>HUB</span>
         </p>

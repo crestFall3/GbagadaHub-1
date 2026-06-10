@@ -5,6 +5,7 @@ import { useModal } from "../context/ModalContext";
 import { RegForm } from "./form";
 import { TypeAnimation } from "react-type-animation";
 import { NavLink } from "react-router";
+import Testimonials from "./testimonials";
 
 export const Home = () => {
   const { openModal } = useModal();
@@ -111,6 +112,10 @@ export const Home = () => {
             </div>
           </div>
         </div>
+      </SectionView>
+
+      <SectionView>
+        <Testimonials />
       </SectionView>
     </div>
   );
