@@ -7,9 +7,9 @@ export const Footer = () => {
       {/* first footer column */}
       <div className="flex flex-col items-center md:items-start gap-4 flex-1">
         <div className="flex gap-2 items-center">
-          <img className="w-12 h-12" src="/logo.svg" alt="Brand Logo" />
-          <p className="flex flex-col font-body">
-            GBAGADA <span>HUB</span>
+        <img style={{ backgroundColor: "#FF6A00" }} className="w-12 h-12" src="/logo.svg" alt="Brand Logo" />
+``          <p className="flex flex-col font-body">
+            
           </p>
         </div>
         <p className="mb-3">

@@ -58,8 +58,8 @@ export default function Testimonials() {
                         ))}
                     </CarouselContent>
 
-                    <CarouselPrevious className="left-0 -translate-x-full bg-transparent text-white border-slate-500 hover:bg-slate-800 hover:text-white" />
-                    <CarouselNext className="right-0 translate-x-full bg-transparent text-white border-slate-500 hover:bg-slate-800 hover:text-white" />
+                    <CarouselPrevious className="left-0 -translate-x-[150%] bg-transparent text-white border-slate-500 hover:bg-slate-800 hover:text-white" />
+                    <CarouselNext className="right-0 translate-x-[150%] bg-transparent text-white border-slate-500 hover:bg-slate-800 hover:text-white" />
                 </Carousel>
             </div>
         </section>

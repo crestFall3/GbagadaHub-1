@@ -14,15 +14,12 @@ export const Nav = () => {
 
   return (
     <div
-      className={`flex justify-between bg-bg px-4 lg:px-0 items-center py-4 md:py-10 z-50 ${isOpen ? "bg-[#969494] shadow-lg" : ""}`}
+      className={`w-screen relative left-1/2 right-1/2 -mx-[50vw] flex justify-between bg-bg px-4 lg:px-0 items-center py-4 md:py-10 z-50 ${isOpen ? "bg-[#969494] shadow-lg" : ""}`}
     >
       {/* Logo */}
 
-      <div className="flex gap-2 items-center">
+      <div className="flex gap-2 items-center ml-23">
         <img style={{ backgroundColor: "#FF6A00" }} className="w-12 h-12" src="/logo.svg" alt="Brand Logo" />
-        <p className="flex flex-col font-body">
-          GBAGADA <span>HUB</span>
-        </p>
       </div>
 
       <nav className="hidden md:flex gap-4 font-display">
@@ -53,7 +50,7 @@ export const Nav = () => {
       </nav>
       <button
         onClick={() => openModal(<RegForm />)}
-        className="hidden md:block rounded border px-4 py-2 hover:bg-[#FF6B00] hover:border-white hover:text-white cursor-pointer"
+        className="hidden md:block rounded border px-4 py-2 hover:bg-[#FF6B00] hover:border-white hover:text-white cursor-pointer mr-23"
       >
         Book a Tour
       </button>
