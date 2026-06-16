@@ -8,9 +8,6 @@ export const Footer = () => {
       <div className="flex flex-col items-center md:items-start gap-4 flex-1">
         <div className="flex gap-2 items-center">
         <img style={{ backgroundColor: "#FF6A00" }} className="w-12 h-12" src="/logo.svg" alt="Brand Logo" />
-``          <p className="flex flex-col font-body">
-            
-          </p>
         </div>
         <p className="mb-3">
           Empowering Gbagada’s creative and entrepreneurial community with
@@ -22,11 +19,35 @@ export const Footer = () => {
           <img
             src="/svg/facebook.svg"
             alt="facebook icon"
-            className="w-6 color-[#FF6B00]"
+            className="w-6 cursor-pointer transition-all duration-300 hover:opacity-80"
+            style={{ filter: "brightness(1)", transition: "filter 0.3s" }}
+            onMouseEnter={(e) => e.target.style.filter = "brightness(0) saturate(1) hue-rotate(0deg) invert(50%) sepia(90%) saturate(1000%) hue-rotate(1deg)"}
+            onMouseLeave={(e) => e.target.style.filter = "brightness(1)"}
           />
-          <img src="/svg/X.svg" alt="X icon" />
-          <img src="/svg/instagram.svg" alt="instagram icon" className="w-6" />
-          <img src="/svg/linkedIn.svg" alt="linkedIn icon" className="w-6" />
+          <img 
+            src="/svg/X.svg" 
+            alt="X icon" 
+            className="w-6 cursor-pointer transition-all duration-300 hover:opacity-80"
+            style={{ filter: "brightness(1)", transition: "filter 0.3s" }}
+            onMouseEnter={(e) => e.target.style.filter = "brightness(0) saturate(1) hue-rotate(0deg) invert(50%) sepia(90%) saturate(1000%) hue-rotate(1deg)"}
+            onMouseLeave={(e) => e.target.style.filter = "brightness(1)"}
+          />
+          <img 
+            src="/svg/instagram.svg" 
+            alt="instagram icon" 
+            className="w-6 cursor-pointer transition-all duration-300 hover:opacity-80"
+            style={{ filter: "brightness(1)", transition: "filter 0.3s" }}
+            onMouseEnter={(e) => e.target.style.filter = "brightness(0) saturate(1) hue-rotate(0deg) invert(50%) sepia(90%) saturate(1000%) hue-rotate(1deg)"}
+            onMouseLeave={(e) => e.target.style.filter = "brightness(1)"}
+          />
+          <img 
+            src="/svg/linkedIn.svg" 
+            alt="linkedIn icon" 
+            className="w-6 cursor-pointer transition-all duration-300 hover:opacity-80"
+            style={{ filter: "brightness(1)", transition: "filter 0.3s" }}
+            onMouseEnter={(e) => e.target.style.filter = "brightness(0) saturate(1) hue-rotate(0deg) invert(50%) sepia(90%) saturate(1000%) hue-rotate(1deg)"}
+            onMouseLeave={(e) => e.target.style.filter = "brightness(1)"}
+          />
         </div>
       </div>
 
@@ -34,16 +55,16 @@ export const Footer = () => {
       <div className="flex flex-col gap-4">
         <h3 className="mb-7.25 font-bold font-body">Quick Links</h3>
         {/* Quick Links */}
-        <NavLink to="/pricing">Pricing</NavLink>
-        <NavLink>Boardroom</NavLink>
-        <NavLink>Private Office</NavLink>
+        <NavLink to="/pricing" className="transition-colors duration-300 hover:text-[#FF6A00]">Pricing</NavLink>
+        <NavLink className="transition-colors duration-300 hover:text-[#FF6A00]">Boardroom</NavLink>
+        <NavLink className="transition-colors duration-300 hover:text-[#FF6A00]">Private Office</NavLink>
       </div>
 
       {/* Third footer column */}
       <div className="flex flex-col gap-4">
         <h3 className="mb-7.25 font-bold font-body">Company</h3>
-        <NavLink to="/about">About Us</NavLink>
-        <NavLink to="/contact">Contact Us</NavLink>
+        <NavLink to="/about" className="transition-colors duration-300 hover:text-[#FF6A00]">About Us</NavLink>
+        <NavLink to="/contact" className="transition-colors duration-300 hover:text-[#FF6A00]">Contact Us</NavLink>
       </div>
 
       {/* Fouth footer column */}
