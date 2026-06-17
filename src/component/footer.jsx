@@ -16,6 +16,7 @@ export const Footer = () => {
 
         <div className="flex gap-6">
           {/* social icons */}
+          <a href="https://www.facebook.com/gbagadahub/" target="_blank" rel="noopener noreferrer">
           <img
             src="/svg/facebook.svg"
             alt="facebook icon"
@@ -24,6 +25,7 @@ export const Footer = () => {
             onMouseEnter={(e) => e.target.style.filter = "brightness(0) saturate(1) hue-rotate(0deg) invert(50%) sepia(90%) saturate(1000%) hue-rotate(1deg)"}
             onMouseLeave={(e) => e.target.style.filter = "brightness(1)"}
           />
+          </a>
           <a href="https://www.instagram.com/gbagadahub/" target="_blank" rel="noopener noreferrer">
           <img 
             src="/svg/instagram.svg" 
