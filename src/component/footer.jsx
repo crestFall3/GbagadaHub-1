@@ -24,14 +24,7 @@ export const Footer = () => {
             onMouseEnter={(e) => e.target.style.filter = "brightness(0) saturate(1) hue-rotate(0deg) invert(50%) sepia(90%) saturate(1000%) hue-rotate(1deg)"}
             onMouseLeave={(e) => e.target.style.filter = "brightness(1)"}
           />
-          <img 
-            src="/svg/X.svg" 
-            alt="X icon" 
-            className="w-6 cursor-pointer transition-all duration-300 hover:opacity-80"
-            style={{ filter: "brightness(1)", transition: "filter 0.3s" }}
-            onMouseEnter={(e) => e.target.style.filter = "brightness(0) saturate(1) hue-rotate(0deg) invert(50%) sepia(90%) saturate(1000%) hue-rotate(1deg)"}
-            onMouseLeave={(e) => e.target.style.filter = "brightness(1)"}
-          />
+          <a href="https://www.instagram.com/gbagadahub/" target="_blank" rel="noopener noreferrer">
           <img 
             src="/svg/instagram.svg" 
             alt="instagram icon" 
@@ -40,14 +33,7 @@ export const Footer = () => {
             onMouseEnter={(e) => e.target.style.filter = "brightness(0) saturate(1) hue-rotate(0deg) invert(50%) sepia(90%) saturate(1000%) hue-rotate(1deg)"}
             onMouseLeave={(e) => e.target.style.filter = "brightness(1)"}
           />
-          <img 
-            src="/svg/linkedIn.svg" 
-            alt="linkedIn icon" 
-            className="w-6 cursor-pointer transition-all duration-300 hover:opacity-80"
-            style={{ filter: "brightness(1)", transition: "filter 0.3s" }}
-            onMouseEnter={(e) => e.target.style.filter = "brightness(0) saturate(1) hue-rotate(0deg) invert(50%) sepia(90%) saturate(1000%) hue-rotate(1deg)"}
-            onMouseLeave={(e) => e.target.style.filter = "brightness(1)"}
-          />
+          </a>
         </div>
       </div>
 

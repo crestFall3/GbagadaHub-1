@@ -37,11 +37,11 @@ export const Home = () => {
           <div className="flex gap-4 flex-col sm:flex-row justify-center mt-4 ">
             <button
               onClick={() => openModal(<RegForm />)}
-              className="rounded py-3 px-10 text-xl bg-black text-white border-2 hover:bg-[#FF6B00]"
+              className="rounded py-3 px-10 text-xl bg-black text-white border-2 hover:bg-[#FF6B00] cursor-pointer"
             >
               Book a Tour
             </button>
-            <button className="rounded py-3 px-10 text-xl  border-2">
+            <button className="rounded py-3 px-10 text-xl  border-2 cursor-pointer">
               <NavLink to="/pricing">View pricing</NavLink>
             </button>
           </div>

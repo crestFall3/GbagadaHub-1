@@ -55,7 +55,7 @@ export const homeSvg = [
   },
 
   {
-    title: "ergonomic furniture",
+    title: "Ergonomic Furniture",
     svg: "/svg/chair.svg",
     description: "icon of a chair",
   },
